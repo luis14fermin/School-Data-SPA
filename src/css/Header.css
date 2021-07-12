@@ -1,0 +1,12 @@
+header{
+    width: 100%;
+    text-align: center;
+}
+
+header h1{
+    padding: 0 .5em;
+}
+
+header span{
+    font-style: italic;
+}

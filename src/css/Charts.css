@@ -1,0 +1,32 @@
+#charts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.pie_chart{
+    width: 90%;
+    display: flex;
+}
+
+.bar_chart{
+    width: 50%;
+}
+
+.bar_chart_title{
+    margin: 0;
+}
+
+@media (max-width: 500px){
+    .pie_chart{
+        width: 75%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bar_chart{
+        width: 75%;
+    }
+}
